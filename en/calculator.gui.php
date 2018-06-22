@@ -85,7 +85,7 @@ if (strtolower($size) == 'tiny'){
 				</div>
 
 
-				<div class="input-group input-group-sm">
+				<div class="input-group input-group-sm" stype="display:none">
 					<label class= "control-label" for="selPmtMthd">Payment Method?:</label>
 						<select id="selPmtMthd" class="control">
 						<option value="0" selected="selected">End-of-Period</option><option value="1">Start-of-Period</option></select>
@@ -363,7 +363,7 @@ if (strtolower($size) == 'tiny'){
 				</div>
 
 
-				<div class="input-group">
+				<div class="input-group" stype="display:none">
 					<label class= "control-label" for="selPmtMthd">Payment Method?:</label>
 						<select id="selPmtMthd" class="control">
 						<option value="0" selected="selected">End-of-Period</option><option value="1">Start-of-Period</option></select>
@@ -504,7 +504,7 @@ if (strtolower($size) == 'tiny'){
 				</div>
 
 
-				<div class="input-group">
+				<div class="input-group" stype="display:none">
 					<label class= "control-label" for="selPmtMthd">Payment Method?:</label>
 						<select id="selPmtMthd" class="control">
 						<option value="0" selected="selected">End-of-Period</option><option value="1">Start-of-Period</option></select>
